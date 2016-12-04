@@ -1,6 +1,6 @@
 <?php
 
-namespace Venturecraft\Revisionable;
+namespace Boparaiamrit\Revisionable;
 
 /**
  * FieldFormatter.
@@ -12,7 +12,7 @@ namespace Venturecraft\Revisionable;
 
 /**
  * Class FieldFormatter
- * @package Venturecraft\Revisionable
+ * @package Boparaiamrit\Revisionable
  */
 class FieldFormatter
 {
@@ -88,7 +88,7 @@ class FieldFormatter
      * @param  $value
      * @param  $format
      *
-     * @return formatted string
+     * @return string
      */
     public static function string($value, $format = null)
     {
@@ -105,7 +105,7 @@ class FieldFormatter
      * @param string $value
      * @param string $format
      *
-     * @return formatted datetime
+     * @return string
      */
     public static function datetime($value, $format = 'Y-m-d H:i:s')
     {
